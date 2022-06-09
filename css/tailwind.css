@@ -3,9 +3,20 @@
 @tailwind utilities;
 
 @layer base {
-  h1 { @apply text-2xl }
-  h2 { @apply text-xl }
-  h3 { @apply text-lg }
+ 
+
+  h1 { 
+    @apply text-2xl text-darkblue
+  }
+
+  h2 { 
+    @apply text-xl text-darkblue mb-4
+  }
+
+  h3 { 
+    @apply text-lg text-darkblue mb-4
+  }
+
   section {
     @apply px-4 py-10
   }
