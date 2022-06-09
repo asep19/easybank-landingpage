@@ -6,15 +6,19 @@
  
 
   h1 { 
-    @apply text-2xl text-darkblue
+    @apply text-3xl text-darkblue
   }
 
   h2 { 
-    @apply text-xl text-darkblue mb-4
+    @apply text-2xl text-darkblue mb-4
   }
 
   h3 { 
-    @apply text-lg text-darkblue mb-4
+    @apply text-xl text-darkblue mb-4
+  }
+
+  h4 { 
+    @apply text-lg text-darkblue mb-2
   }
 
   section {

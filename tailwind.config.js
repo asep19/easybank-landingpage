@@ -12,7 +12,10 @@ module.exports = {
         grayishblue: "hsl(233, 8%, 62%)",
         lightgrayishblue: "hsl(220, 16%, 96%)",
         verylightgray: "hsl(0, 0%, 98%)",
-      }
+      },
+      screens: {
+        'lg': '1050px'
+      },
     },
   },
   plugins: [],
