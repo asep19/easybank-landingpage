@@ -551,6 +551,10 @@ section {
   height: 5rem;
 }
 
+.h-40 {
+  height: 10rem;
+}
+
 .max-w-xs {
   max-width: 20rem;
 }
