@@ -6,7 +6,7 @@
  
 
   h1 { 
-    @apply text-3xl text-darkblue
+    @apply text-3xl text-darkblue mb-4
   }
 
   h2 { 
@@ -24,9 +24,26 @@
   section {
     @apply px-4 py-10
   }
+
+  a {
+    @apply hover:text-limegreen
+  }
+
 }
 
+.is-hover {
+  @apply hover:border-b-4 hover:text-darkblue hover:border-b-limegreen
+}
+
+.is-active {
+  @apply border-b-4 border-b-limegreen
+}
+
+.btn-primary {
+  @apply inline-block rounded-full bg-gradient-to-r from-limegreen to-brightcyan text-white lg:text-center px-6 py-2 font-medium hover:text-white hover:bg-gradient-to-r hover:from-limegreen/70 hover:to-brightcyan/70
+}
+ 
+
 .hero {
-  background-image: url("../images/bg-intro-mobile.svg");
-  background-size: cover;
+  @apply bg-[url('/images/bg-intro-mobile.svg')] lg:bg-[url('/images/bg-intro-desktop.svg')] bg-contain bg-no-repeat bg-right-top
 }
