@@ -46,4 +46,4 @@
 
 .hero {
   @apply bg-[url('/images/bg-intro-mobile.svg')] lg:bg-[url('/images/bg-intro-desktop.svg')] bg-contain bg-no-repeat bg-right-top
-}
+} 
